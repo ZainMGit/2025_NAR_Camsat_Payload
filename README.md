@@ -8,7 +8,7 @@ black wire - GND
 Red - 3.3v 
 blue- SDA
 Yellow - SCL
-order: BlRBY
+order: BlaRBY
 
 humidity - 
 L to R with pins facing south
