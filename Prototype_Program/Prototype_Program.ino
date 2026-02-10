@@ -7,6 +7,8 @@
 #define SD_CS 10   // Chip select pin for SD card
 
 DHT11 dht11(DHTPIN);
+
+
 File myFile;
 
 void setup() {
@@ -63,5 +65,19 @@ void loop() {
     Serial.println("Failed to read from DHT11");
   }
 
-  delay(500);
+  myFile = SD.open("test.txt", FILE_WRITE);
+
+  if (myFile) {
+
+    myFile.println("Starting Humidity readings");
+    myFile.println("Temp: ");
+    myFile.print(temperature);
+    Serial.println(" C\tHumidity: ");
+    Serial.print(humidity);
+    Serial.print(" %");
+
+    myFile.close();
+
+
+  delay(1000);
 }
