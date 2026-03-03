@@ -5,13 +5,15 @@
 // Pin definitions
 #define DHTPIN 2
 #define SD_CS 10   // Chip select pin for SD card
+#define 
 
 DHT11 dht11(DHTPIN);
 
 
-File myFile;
+File myFile, myFile2; 
 
-void setup() {
+
+void setup() { 
   Serial.begin(9600);
 
   // Wait for Serial (needed for some boards like Leonardo)
