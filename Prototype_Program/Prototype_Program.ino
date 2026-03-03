@@ -5,13 +5,14 @@
 // Pin definitions
 #define DHTPIN 2
 #define SD_CS 10   // Chip select pin for SD card
-#define 
+
 
 DHT11 dht11(DHTPIN);
 
 
 File myFile, myFile2; 
 
+const int DB_Sensor = A0;
 
 void setup() { 
   Serial.begin(9600);
