@@ -3,8 +3,8 @@
 #include <SD.h>
 
 // Pin definitions
-#define DHTPIN 4
-#define SD_CS 10   // Chip select pin for SD card
+#define DHTPIN 3
+#define SD_CS 4   // Chip select pin for SD card
 
 
 DHT11 dht11(DHTPIN);
