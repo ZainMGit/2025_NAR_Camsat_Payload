@@ -22536,7 +22536,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KiCAD_Camsat_PCB:LGA-14L"
+		(property "Footprint" "esp32:PQFN50P250X300X86-14N"
 			(at 370.84 124.46 0)
 			(effects
 				(font
@@ -25948,7 +25948,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "KiCAD_Camsat_PCB:BME280"
+		(property "Footprint" "esp32:PSON65P250X250X100-8N"
 			(at 664.21 200.66 0)
 			(effects
 				(font
@@ -30164,7 +30164,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-radionica.com footprinti:SOT-23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 189.23 153.67 0)
 			(effects
 				(font
@@ -34451,7 +34451,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "KiCAD_Camsat_PCB:SOT23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 806.45 124.46 0)
 			(effects
 				(font
