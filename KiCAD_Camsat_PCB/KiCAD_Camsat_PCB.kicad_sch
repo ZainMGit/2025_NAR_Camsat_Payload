@@ -7133,6 +7133,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:SS14"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SS14"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "40V 1A Schottky Diode, SMA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SS14_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SS14_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ESP32-WROOM-32E(8MB)"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9410,173 +9560,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "KiCAD_Camsat_PCB-eagle-import:JUMPER-SMT_2_NC_TRACE_SILK"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 3.048 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 -3.048 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-				)
-			)
-			(property "Footprint" "KiCAD_Camsat_PCB:SMT-JUMPER_2_NC_TRACE_SILK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Normally closed trace jumper\n\nThis jumper has a trace between two pads so it's normally closed (NC). Use a razor knife to open the connection. For best results follow the IPC guidelines for cutting traces:\n\n• Cutout at least 0.063 mm (0.005 in).\n• Remove all loose material to clean up the cut area.\n• Seal the cut with an approved epoxy.\n\nReapply solder to reclose the connection."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "JUMPER-SMT_2_NC_TRACE_SILK_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.651 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 0) (xy 1.016 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.381 -0.635)
-					(mid -1.0159 0.0001)
-					(end -0.3808 0.635)
-					(stroke
-						(width 1.27)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.381 0.635)
-					(mid 0.83 0.4489)
-					(end 1.0159 -0.0001)
-					(stroke
-						(width 1.27)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.016 0)
-					(mid 0.83 -0.4491)
-					(end 0.3809 -0.6351)
-					(stroke
-						(width 1.27)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 1.651 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "KiCAD_Camsat_PCB-eagle-import:JUMPER-SMT_3_1-NC_TRACE_SILK"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -9714,250 +9697,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(arc
-					(start 1.27 -1.397)
-					(mid 0 -2.667)
-					(end -1.27 -1.397)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0.635) (xy 1.27 -0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.635) (xy -1.27 -0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "KiCAD_Camsat_PCB-eagle-import:JUMPER-SMT_3_2-NC_TRACE_SILK"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 6.096 1.524 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 6.858 -1.524 0)
-				(effects
-					(font
-						(size 1.778 1.778)
-					)
-				)
-			)
-			(property "Footprint" "KiCAD_Camsat_PCB:SMT-JUMPER_3_2-NC_TRACE_SILK"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Normally closed trace jumper (2 of 2 connections)\n\nThis jumper has a trace between all three pads so they are normally closed (NC). Use a razor knife to open the connection(s). For best results follow the IPC guidelines for cutting traces:\n\n• Cutout at least 0.063 mm (0.005 in).\n• Remove all loose material to clean up the cut area.\n• Seal the cut with an approved epoxy.\n\nReapply solder to reclose the connection(s)."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "JUMPER-SMT_3_2-NC_TRACE_SILK_1_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0.635) (xy 1.27 0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 0.635)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -0.635)
-					(end 1.27 0.635)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -0.635) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 2.667)
-					(mid 0.898 2.295)
-					(end 1.27 1.397)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.032) (xy 0 -1.778)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 1.397)
-					(mid -0.898 2.295)
-					(end 0 2.667)
-					(stroke
-						(width 0.0001)
-						(type solid)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(arc
@@ -15621,7 +15360,7 @@
 		)
 		(uuid "03f4a56e-29ce-486e-b104-8d923d9768c0")
 	)
-	(text "SDA = GPIO21\nSCL = GPIO22\n\nCS = GPIO5\nMOSI = GPIO23\nSCLK = GPIO18\nMISO = GPIO19\n"
+	(text "SDA = GPIO21\nSCL = GPIO22\n\nCS = GPIO5\nMOSI = GPIO13\nSCLK = GPIO18\nMISO = GPIO19\n"
 		(exclude_from_sim no)
 		(at 246.888 498.094 0)
 		(effects
@@ -15651,17 +15390,6 @@
 		)
 		(uuid "1d0806f8-2324-47a3-97ae-e94aaf08259e")
 	)
-	(text "Cut trace to\ndisconnect Power\nLED."
-		(exclude_from_sim no)
-		(at 459.74 129.54 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "1d36ed12-a912-4154-93d1-86ddcd22efa9")
-	)
 	(text "POWER LED"
 		(exclude_from_sim no)
 		(at 247.65 326.8218 0)
@@ -15686,17 +15414,6 @@
 		)
 		(uuid "34030aec-1245-4d24-8796-9d55834d9f8c")
 	)
-	(text "0x6B"
-		(exclude_from_sim no)
-		(at 532.13 112.522 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "37454157-2035-4765-beaa-28e9dbaf01d3")
-	)
 	(text "VDD Range: 1.71V - 3.6V\nVDDIO Range: 1.62V - 3.6V"
 		(exclude_from_sim no)
 		(at 355.346 106.426 0)
@@ -15719,17 +15436,6 @@
 			(justify left top)
 		)
 		(uuid "3d738cf3-123f-439e-bc7a-0280fea5fe33")
-	)
-	(text "0x6A"
-		(exclude_from_sim no)
-		(at 531.876 117.602 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "3feb018c-1309-493d-82a0-97bb7a8c10a8")
 	)
 	(text "9V Battery Input\n"
 		(exclude_from_sim no)
@@ -15848,28 +15554,6 @@
 		)
 		(uuid "7ea2904d-bfd5-47b2-8b2a-2dee5549784a")
 	)
-	(text "SPI"
-		(exclude_from_sim no)
-		(at 531.876 122.428 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "82bd5f4e-a775-4a23-9477-9294dae44bc5")
-	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 521.97 118.11 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "838cf5ad-5b74-4be8-8518-a5a81911306a")
-	)
 	(text "NF"
 		(exclude_from_sim no)
 		(at 228.6 448.6783 0)
@@ -15962,17 +15646,6 @@
 			(justify left bottom)
 		)
 		(uuid "a92f258c-a8e4-492b-9c6f-e4a575ddb1f0")
-	)
-	(text "VDD"
-		(exclude_from_sim no)
-		(at 522.224 112.776 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "bab9a5d2-f58a-46ff-9bbd-e780c2676a70")
 	)
 	(text "LEVEL SHIFTING (5V <--> 3V)"
 		(exclude_from_sim no)
@@ -16072,17 +15745,6 @@
 		)
 		(uuid "f30c1e92-cfc1-4cf2-83de-edea842eec41")
 	)
-	(text "OPEN"
-		(exclude_from_sim no)
-		(at 521.462 122.682 0)
-		(effects
-			(font
-				(size 1.778 1.778)
-			)
-			(justify left bottom)
-		)
-		(uuid "f30ea1e5-b6bc-4a27-aa11-8af0d3a49ada")
-	)
 	(text "If using Mode 2 (Sensor Hub Mode),\ncut both traces."
 		(exclude_from_sim no)
 		(at 551.18 170.434 0)
@@ -16105,6 +15767,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02873377-cf86-43c4-8579-cd7661fc561a")
+	)
+	(junction
+		(at 322.58 524.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "030f7496-bb5a-414e-9ef4-c9bc083aab63")
 	)
 	(junction
 		(at 175.26 151.13)
@@ -16219,6 +15887,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57daa8a5-c187-4f5b-acfe-9cec8fd33b55")
+	)
+	(junction
+		(at 327.66 514.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5bece7e6-244e-4b89-88cb-2fa516aea5fd")
 	)
 	(junction
 		(at 334.01 459.74)
@@ -16395,6 +16069,12 @@
 		(uuid "a61e8a6f-4279-48bf-841d-3de65cccafcd")
 	)
 	(junction
+		(at 439.42 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac961f18-1c9b-4792-8269-a198a85a78f9")
+	)
+	(junction
 		(at 786.13 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16417,12 +16097,6 @@
 		(diameter 0.9144)
 		(color 0 0 0 0)
 		(uuid "b2ca52c3-89ef-464e-9dc3-64df26bbd54f")
-	)
-	(junction
-		(at 326.39 535.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b5168ffc-0dc2-41aa-8e38-44d26699c033")
 	)
 	(junction
 		(at 201.93 138.43)
@@ -16461,18 +16135,6 @@
 		(uuid "c3e932ef-0e25-4335-9ab7-a4d9d03faba7")
 	)
 	(junction
-		(at 331.47 514.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfa177d2-9b2f-471b-be73-295cd173bd9d")
-	)
-	(junction
-		(at 326.39 524.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1b26430-ac9f-4f7f-ba14-de9cdd426b5f")
-	)
-	(junction
 		(at 215.9 455.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16483,6 +16145,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e852b4dc-9984-4e11-b635-880aa5cba090")
+	)
+	(junction
+		(at 322.58 535.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ecbf13c4-d82d-4252-b640-b8eef331f66f")
 	)
 	(junction
 		(at 53.34 393.7)
@@ -16658,16 +16326,6 @@
 		)
 		(uuid "011222f7-1b62-4b70-8574-aa6f9de49ea4")
 	)
-	(polyline
-		(pts
-			(xy 520.7 124.46) (xy 528.32 124.46)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "0237de05-f2d8-4679-bde2-4029e6e4b886")
-	)
 	(wire
 		(pts
 			(xy 213.36 501.65) (xy 213.36 499.11)
@@ -16678,16 +16336,6 @@
 		)
 		(uuid "02863fab-4633-4a32-a18d-15f6a6d380a6")
 	)
-	(polyline
-		(pts
-			(xy 515.62 106.68) (xy 518.16 106.68)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "034d8d0c-bd24-4263-bde5-7e106c089925")
-	)
 	(wire
 		(pts
 			(xy 651.51 134.62) (xy 651.51 109.22)
@@ -16697,16 +16345,6 @@
 			(type solid)
 		)
 		(uuid "04a6edf7-1703-46df-9d33-4129a5b0ece7")
-	)
-	(polyline
-		(pts
-			(xy 518.16 106.68) (xy 517.144 105.918)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "0683312b-1ebe-4749-b844-d8387cdfce0e")
 	)
 	(wire
 		(pts
@@ -16730,6 +16368,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 359.41) (xy 78.74 359.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07633874-47dd-4919-b855-d6a1ae99da46")
+	)
+	(wire
+		(pts
 			(xy 200.66 431.8) (xy 233.68 431.8)
 		)
 		(stroke
@@ -16747,16 +16395,6 @@
 			(type default)
 		)
 		(uuid "07f18eb8-4853-45a9-ae16-8dcdb75167ad")
-	)
-	(wire
-		(pts
-			(xy 331.47 514.35) (xy 339.09 514.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08535d49-2256-45d0-b606-c0ce06303d22")
 	)
 	(wire
 		(pts
@@ -16848,16 +16486,6 @@
 		)
 		(uuid "0d7648fe-2044-4a27-b4f2-73ede33ad7b5")
 	)
-	(polyline
-		(pts
-			(xy 543.56 104.14) (xy 520.7 104.14)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "0deb5df6-5bd4-4869-94e5-f53b3c7606e2")
-	)
 	(wire
 		(pts
 			(xy 341.63 372.11) (xy 341.63 367.03)
@@ -16887,16 +16515,6 @@
 			(type solid)
 		)
 		(uuid "0f27fbc7-71e8-4cfe-9979-78601d498cd7")
-	)
-	(polyline
-		(pts
-			(xy 518.16 106.68) (xy 517.144 107.442)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "0f4cfbe7-8dea-4343-8df3-a6fd615082fd")
 	)
 	(wire
 		(pts
@@ -16957,6 +16575,16 @@
 			(type default)
 		)
 		(uuid "13842c91-9c8e-4430-bff7-f51a0eff1067")
+	)
+	(wire
+		(pts
+			(xy 439.42 152.4) (xy 447.04 152.4)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "14fb0d36-8b73-4f8f-a216-ebd5be4040b0")
 	)
 	(wire
 		(pts
@@ -17128,16 +16756,6 @@
 		)
 		(uuid "1adf01b2-862d-4a57-9069-b82907d3a3d0")
 	)
-	(polyline
-		(pts
-			(xy 543.56 124.46) (xy 543.56 119.38)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "1c19c9c6-aa68-4ec1-b501-df05549c6abe")
-	)
 	(wire
 		(pts
 			(xy 227.33 78.74) (xy 231.14 78.74)
@@ -17298,16 +16916,6 @@
 		)
 		(uuid "266f6b00-0664-4514-82ca-89f948b37b78")
 	)
-	(polyline
-		(pts
-			(xy 520.7 119.38) (xy 520.7 124.46)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "2798c928-8cf4-4999-ada5-ceca2231fba6")
-	)
 	(wire
 		(pts
 			(xy 64.77 78.74) (xy 64.77 76.2)
@@ -17408,16 +17016,6 @@
 		)
 		(uuid "2e289723-ce8c-4944-bc14-f6cadeaaae1f")
 	)
-	(polyline
-		(pts
-			(xy 543.56 114.3) (xy 543.56 109.22)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "2e3d52a7-4171-42fa-826d-243e0ae2ffa5")
-	)
 	(wire
 		(pts
 			(xy 793.75 124.46) (xy 793.75 121.92)
@@ -17447,16 +17045,6 @@
 			(type default)
 		)
 		(uuid "2fa80ebb-8296-4021-9035-6777f8671810")
-	)
-	(wire
-		(pts
-			(xy 457.2 114.3) (xy 457.2 116.84)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2fd70bda-887a-4047-b927-04bd4c1fb03a")
 	)
 	(wire
 		(pts
@@ -17490,6 +17078,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 514.35) (xy 327.66 514.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3348a3fc-4faf-4c49-bfc0-642e7ca811b1")
+	)
+	(wire
+		(pts
 			(xy 152.4 91.44) (xy 152.4 92.71)
 		)
 		(stroke
@@ -17507,16 +17105,6 @@
 			(type solid)
 		)
 		(uuid "33fd05d2-132c-4471-82c5-b370438845b6")
-	)
-	(polyline
-		(pts
-			(xy 528.32 109.22) (xy 528.32 114.3)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "3416177e-3049-46f1-88d6-62330bc19fae")
 	)
 	(wire
 		(pts
@@ -17598,16 +17186,6 @@
 		)
 		(uuid "37c8f675-98f6-4867-883e-1677d1df419b")
 	)
-	(polyline
-		(pts
-			(xy 517.144 105.918) (xy 517.144 107.442)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "37f7d1f3-b88f-4e7c-9e5a-7fd1f246d8ac")
-	)
 	(wire
 		(pts
 			(xy 184.15 532.13) (xy 198.12 532.13)
@@ -17667,16 +17245,6 @@
 			(type solid)
 		)
 		(uuid "3dfab9ea-4e60-416b-8bef-1405efc6309e")
-	)
-	(polyline
-		(pts
-			(xy 543.56 119.38) (xy 543.56 114.3)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "3e0c454e-f71c-41be-a812-37d65e60bffc")
 	)
 	(wire
 		(pts
@@ -17740,7 +17308,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 524.51) (xy 326.39 535.94)
+			(xy 322.58 524.51) (xy 322.58 535.94)
 		)
 		(stroke
 			(width 0)
@@ -17807,16 +17375,6 @@
 			(type solid)
 		)
 		(uuid "42884f24-cb67-4516-af16-2b5a4a6edd2f")
-	)
-	(wire
-		(pts
-			(xy 515.62 157.48) (xy 515.62 154.94)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "4302c213-d4ab-419d-8bb0-21f48abf5b6b")
 	)
 	(wire
 		(pts
@@ -17910,7 +17468,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 514.35) (xy 331.47 514.35)
+			(xy 308.61 514.35) (xy 313.69 514.35)
 		)
 		(stroke
 			(width 0)
@@ -17920,7 +17478,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 535.94) (xy 326.39 542.29)
+			(xy 322.58 535.94) (xy 322.58 542.29)
 		)
 		(stroke
 			(width 0)
@@ -18008,16 +17566,6 @@
 		)
 		(uuid "4c9dd04e-544d-44e5-8474-1ef73fe5e027")
 	)
-	(polyline
-		(pts
-			(xy 528.32 124.46) (xy 543.56 124.46)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "4c9eff34-3cc6-44db-8927-dfcb1b401491")
-	)
 	(wire
 		(pts
 			(xy 447.04 167.64) (xy 449.58 167.64)
@@ -18037,16 +17585,6 @@
 			(type default)
 		)
 		(uuid "4e00ffbb-2a6e-4d51-9abb-d6b6c8544cf2")
-	)
-	(polyline
-		(pts
-			(xy 520.7 104.14) (xy 520.7 109.22)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "4e7fe081-76b7-4731-9edd-6559bfc64601")
 	)
 	(polyline
 		(pts
@@ -18127,16 +17665,6 @@
 			(type solid)
 		)
 		(uuid "553d4f33-77dc-4a59-b8c1-22aa52545a98")
-	)
-	(polyline
-		(pts
-			(xy 528.32 119.38) (xy 543.56 119.38)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "57897646-b5cb-4868-b6cd-0c97ed465ceb")
 	)
 	(wire
 		(pts
@@ -18250,6 +17778,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 535.94) (xy 339.09 535.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60fd6c69-10d4-4bd8-b03d-dfd04f0e2463")
+	)
+	(wire
+		(pts
 			(xy 457.2 93.98) (xy 457.2 91.44)
 		)
 		(stroke
@@ -18277,26 +17815,6 @@
 			(type default)
 		)
 		(uuid "6370c0dc-d742-482f-94aa-f99a7de10714")
-	)
-	(polyline
-		(pts
-			(xy 543.56 109.22) (xy 543.56 104.14)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "6376069f-22f0-4f4e-a136-46203bb42fc9")
-	)
-	(polyline
-		(pts
-			(xy 528.32 109.22) (xy 543.56 109.22)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "659202f4-3894-4a9c-9af6-625c185d54fc")
 	)
 	(wire
 		(pts
@@ -18510,16 +18028,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 524.51) (xy 331.47 524.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76ba0254-6e89-4875-924a-a5fe172f64e6")
-	)
-	(wire
-		(pts
 			(xy 148.59 91.44) (xy 148.59 92.71)
 		)
 		(stroke
@@ -18620,7 +18128,7 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 152.4) (xy 434.34 152.4)
+			(xy 431.8 152.4) (xy 439.42 152.4)
 		)
 		(stroke
 			(width 0.1524)
@@ -18727,16 +18235,6 @@
 			(type solid)
 		)
 		(uuid "82c29783-d39b-47cb-aced-b2438377ac2f")
-	)
-	(polyline
-		(pts
-			(xy 528.32 114.3) (xy 520.7 114.3)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "82d36e28-8b50-40d9-b8c5-377db965ea88")
 	)
 	(wire
 		(pts
@@ -18950,7 +18448,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 519.43) (xy 326.39 519.43)
+			(xy 308.61 519.43) (xy 322.58 519.43)
 		)
 		(stroke
 			(width 0)
@@ -19150,16 +18648,6 @@
 	)
 	(wire
 		(pts
-			(xy 457.2 127) (xy 457.2 129.54)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "966f532c-b218-4f2e-93f8-3921d40d9838")
-	)
-	(wire
-		(pts
 			(xy 189.23 334.01) (xy 189.23 367.03)
 		)
 		(stroke
@@ -19287,16 +18775,6 @@
 			(type dash)
 		)
 		(uuid "9cfed7f3-182c-4dcf-9b00-bf3c4070aa43")
-	)
-	(polyline
-		(pts
-			(xy 510.54 111.76) (xy 515.62 111.76)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "9ef39139-ee15-416b-b193-49224c7a18fa")
 	)
 	(wire
 		(pts
@@ -19480,6 +18958,16 @@
 	)
 	(wire
 		(pts
+			(xy 515.62 142.24) (xy 515.62 157.48)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "aa8c4944-2061-4470-a39a-0a3933a53442")
+	)
+	(wire
+		(pts
 			(xy 181.61 153.67) (xy 177.8 153.67)
 		)
 		(stroke
@@ -19528,16 +19016,6 @@
 		)
 		(uuid "ad4bd99b-6386-441e-aeec-780c96b7225c")
 	)
-	(polyline
-		(pts
-			(xy 520.7 119.38) (xy 528.32 119.38)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "adc1371f-786c-4731-b543-5e51c0d3c836")
-	)
 	(wire
 		(pts
 			(xy 250.19 102.235) (xy 250.19 104.14)
@@ -19570,7 +19048,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 359.41) (xy 78.74 359.41)
+			(xy 93.98 359.41) (xy 91.44 359.41)
 		)
 		(stroke
 			(width 0)
@@ -19628,16 +19106,6 @@
 		)
 		(uuid "b3482bbd-1441-4816-9d48-6e42d6873876")
 	)
-	(polyline
-		(pts
-			(xy 528.32 119.38) (xy 528.32 124.46)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "b365446a-2778-46d6-a475-b019a4fac1ee")
-	)
 	(wire
 		(pts
 			(xy 231.14 499.11) (xy 231.14 509.27)
@@ -19670,7 +19138,7 @@
 	)
 	(wire
 		(pts
-			(xy 439.42 144.78) (xy 439.42 147.32)
+			(xy 439.42 144.78) (xy 439.42 152.4)
 		)
 		(stroke
 			(width 0.1524)
@@ -19737,16 +19205,6 @@
 			(type default)
 		)
 		(uuid "b7dbc8aa-3bb8-4741-91a2-08dc2f029685")
-	)
-	(polyline
-		(pts
-			(xy 528.32 114.3) (xy 543.56 114.3)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "b7e83fe3-e0cd-427a-bb8e-3c00385a8660")
 	)
 	(wire
 		(pts
@@ -19850,16 +19308,6 @@
 	)
 	(wire
 		(pts
-			(xy 444.5 152.4) (xy 447.04 152.4)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "bc7a92c8-eff6-42f1-83f5-7f6440f47c53")
-	)
-	(wire
-		(pts
 			(xy 355.6 422.91) (xy 370.84 422.91)
 		)
 		(stroke
@@ -19908,16 +19356,6 @@
 		)
 		(uuid "bfa3ff0c-d13c-456b-8331-b99df00e10bc")
 	)
-	(polyline
-		(pts
-			(xy 520.7 114.3) (xy 520.7 119.38)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "bfdc6993-b19d-418f-9311-ae18b8047735")
-	)
 	(wire
 		(pts
 			(xy 175.26 138.43) (xy 185.42 138.43)
@@ -19927,16 +19365,6 @@
 			(type solid)
 		)
 		(uuid "c02c2d3e-741c-4fea-ba9b-0cccd4216766")
-	)
-	(polyline
-		(pts
-			(xy 520.7 109.22) (xy 528.32 109.22)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "c07dcf5c-bbf2-423e-9c7c-668a20fb8a3f")
 	)
 	(wire
 		(pts
@@ -20100,6 +19528,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 524.51) (xy 327.66 524.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c92fd333-0532-4c08-973e-4330ae9734a2")
+	)
+	(wire
+		(pts
 			(xy 648.97 193.04) (xy 648.97 195.58)
 		)
 		(stroke
@@ -20227,16 +19665,6 @@
 			(type default)
 		)
 		(uuid "d356a5fa-a37a-440b-b541-8b24e0a725b9")
-	)
-	(polyline
-		(pts
-			(xy 515.62 111.76) (xy 515.62 106.68)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "d4388a83-7795-4679-881c-fa8db9af7b77")
 	)
 	(wire
 		(pts
@@ -20428,16 +19856,6 @@
 		)
 		(uuid "e63e45b3-2b5f-426a-9740-61ad534dcfce")
 	)
-	(polyline
-		(pts
-			(xy 520.7 109.22) (xy 520.7 114.3)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "e808e110-7588-452b-ba46-24cd62fefd48")
-	)
 	(wire
 		(pts
 			(xy 335.28 119.38) (xy 335.28 114.3)
@@ -20457,16 +19875,6 @@
 			(type default)
 		)
 		(uuid "e9164041-ea42-4e99-8b65-9468a9d29547")
-	)
-	(polyline
-		(pts
-			(xy 528.32 114.3) (xy 528.32 119.38)
-		)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(uuid "e95671c9-accb-4ba5-bd11-3d993f74e655")
 	)
 	(wire
 		(pts
@@ -20537,16 +19945,6 @@
 			(type solid)
 		)
 		(uuid "ecdf42a9-2f75-4439-abef-3167157c2fa9")
-	)
-	(wire
-		(pts
-			(xy 326.39 535.94) (xy 339.09 535.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee2e499f-48e7-4263-bbb2-157c3c9ab7aa")
 	)
 	(wire
 		(pts
@@ -20660,16 +20058,6 @@
 	)
 	(wire
 		(pts
-			(xy 515.62 144.78) (xy 515.62 142.24)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "f436e227-95f8-4600-a039-43a0f7c663af")
-	)
-	(wire
-		(pts
 			(xy 189.23 434.34) (xy 189.23 431.8)
 		)
 		(stroke
@@ -20700,13 +20088,33 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 519.43) (xy 326.39 524.51)
+			(xy 457.2 114.3) (xy 457.2 129.54)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f5af14d0-2bc1-4857-b101-77a25459e24f")
+	)
+	(wire
+		(pts
+			(xy 322.58 519.43) (xy 322.58 524.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f5e48628-00b4-46e1-9450-eddbb339b5d8")
+	)
+	(wire
+		(pts
+			(xy 139.7 367.03) (xy 165.1 367.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f73481f8-52ad-44f7-94e0-fdd9c6cdff47")
 	)
 	(wire
 		(pts
@@ -20757,6 +20165,16 @@
 			(type solid)
 		)
 		(uuid "f82d0080-5f1c-4362-ab9b-030b49ad9a4a")
+	)
+	(wire
+		(pts
+			(xy 327.66 514.35) (xy 339.09 514.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8bedfba-a243-4dc0-ace0-0eb0f049f55f")
 	)
 	(wire
 		(pts
@@ -20840,17 +20258,7 @@
 	)
 	(wire
 		(pts
-			(xy 535.94 144.78) (xy 535.94 142.24)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "fe71449a-750b-44ee-a7a3-b17a3c2bb405")
-	)
-	(wire
-		(pts
-			(xy 535.94 157.48) (xy 535.94 154.94)
+			(xy 535.94 142.24) (xy 535.94 157.48)
 		)
 		(stroke
 			(width 0.1524)
@@ -21618,8 +21026,8 @@
 		)
 		(uuid "dc4068da-2cc8-499a-ace7-c7058742f294")
 	)
-	(label "5V regulated"
-		(at 405.13 519.43 0)
+	(label "5V Board"
+		(at 393.7 519.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21657,6 +21065,16 @@
 			(justify left bottom)
 		)
 		(uuid "e9915f9e-064c-4cad-a14d-f371f682d5bd")
+	)
+	(label "5V_Board"
+		(at 140.97 367.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ea9176b1-de93-4722-a205-5537498d75d0")
 	)
 	(label "TXD0"
 		(at 233.68 516.89 0)
@@ -22094,7 +21512,7 @@
 	)
 	(symbol
 		(lib_id "CL05B104KO5NNNC")
-		(at 331.47 519.43 0)
+		(at 327.66 519.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22102,7 +21520,7 @@
 		(dnp no)
 		(uuid "00b4d29c-b83b-42e6-97b5-4ade07b2be88")
 		(property "Reference" "C14"
-			(at 334.01 518.5029 0)
+			(at 330.2 518.5029 0)
 			(effects
 				(font
 					(face "Arial")
@@ -22112,7 +21530,7 @@
 			)
 		)
 		(property "Value" "470uF"
-			(at 334.01 520.7889 0)
+			(at 330.2 520.7889 0)
 			(effects
 				(font
 					(face "Arial")
@@ -22122,7 +21540,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 331.47 519.43 0)
+			(at 327.66 519.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22131,7 +21549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 331.47 519.43 0)
+			(at 327.66 519.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22140,7 +21558,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 331.47 519.43 0)
+			(at 327.66 519.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22149,7 +21567,7 @@
 			)
 		)
 		(property "Manufacturer Part" "CL05B104KO5NNNC"
-			(at 331.47 519.43 0)
+			(at 327.66 519.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22158,7 +21576,7 @@
 			)
 		)
 		(property "Manufacturer" "SAMSUNG(三星)"
-			(at 331.47 519.43 0)
+			(at 327.66 519.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22167,7 +21585,7 @@
 			)
 		)
 		(property "Supplier Part" "C1525"
-			(at 331.47 519.43 0)
+			(at 327.66 519.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22176,7 +21594,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 331.47 519.43 0)
+			(at 327.66 519.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22410,7 +21828,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Barrel_Jack")
-		(at 316.23 516.89 0)
+		(at 300.99 516.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22419,7 +21837,7 @@
 		(fields_autoplaced yes)
 		(uuid "02b7292c-b0da-4a98-842e-b598986c5dd1")
 		(property "Reference" "J1"
-			(at 316.23 508 0)
+			(at 300.99 508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22427,15 +21845,15 @@
 			)
 		)
 		(property "Value" "Barrel_Jack"
-			(at 316.23 510.54 0)
+			(at 300.99 510.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 317.5 517.906 0)
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal"
+			(at 302.26 517.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22444,7 +21862,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 317.5 517.906 0)
+			(at 302.26 517.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22453,7 +21871,7 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack"
-			(at 316.23 516.89 0)
+			(at 300.99 516.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22674,7 +22092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-radionica.com footprinti:0603C"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 232.41 69.85 0)
 			(effects
 				(font
@@ -23197,6 +22615,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SS14")
+		(at 87.63 359.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dde5324-19ac-46cb-bc51-564f338b104b")
+		(property "Reference" "D7"
+			(at 87.9475 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 87.9475 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 87.63 354.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 87.63 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 87.63 359.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "196add05-b10c-4d42-9e1b-db70d7d0cf13")
+		)
+		(pin "2"
+			(uuid "f6887597-d1e7-4a15-9bca-4cb100d84ee5")
+		)
+		(instances
+			(project "KiCAD_Camsat_PCB"
+				(path "/241eef85-5121-46ed-8e85-b326060aeaf2"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KiCAD_Camsat_PCB-eagle-import:microbuilder_3.3V")
 		(at 621.03 104.14 0)
 		(unit 1)
@@ -23264,7 +22750,7 @@
 	)
 	(symbol
 		(lib_id "GND")
-		(at 326.39 542.29 0)
+		(at 322.58 542.29 0)
 		(unit 0)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23272,7 +22758,7 @@
 		(dnp no)
 		(uuid "0f4bea00-b522-43ca-8b46-c60a06edac8a")
 		(property "Reference" "#PWR013"
-			(at 326.39 542.29 0)
+			(at 322.58 542.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23281,7 +22767,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 323.088 548.894 0)
+			(at 319.278 548.894 0)
 			(effects
 				(font
 					(face "Times New Roman")
@@ -23291,7 +22777,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 326.39 542.29 0)
+			(at 322.58 542.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23300,7 +22786,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 326.39 542.29 0)
+			(at 322.58 542.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23309,7 +22795,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name 'GND'"
-			(at 326.39 542.29 0)
+			(at 322.58 542.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23984,7 +23470,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KiCAD_Camsat_PCB:0805-NO"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 621.03 119.38 0)
 			(effects
 				(font
@@ -24021,75 +23507,6 @@
 			(project "KiCAD_Camsat_PCB"
 				(path "/241eef85-5121-46ed-8e85-b326060aeaf2"
 					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KiCAD_Camsat_PCB-eagle-import:JUMPER-SMT_2_NC_TRACE_SILK")
-		(at 535.94 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "19879c23-34c5-409b-969a-efb2722686c8")
-		(property "Reference" "SCX0"
-			(at 533.4 149.86 90)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "JUMPER-SMT_2_NC_TRACE_SILK"
-			(at 538.988 149.86 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "KiCAD_Camsat_PCB:SMT-JUMPER_2_NC_TRACE_SILK"
-			(at 535.94 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 535.94 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 535.94 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b8c5429b-77b8-4215-b544-01ccd5f20f43")
-		)
-		(pin "1"
-			(uuid "8b955ded-ce98-4a2c-927a-41dbdeec1dbc")
-		)
-		(instances
-			(project "KiCAD_Camsat_PCB"
-				(path "/241eef85-5121-46ed-8e85-b326060aeaf2"
-					(reference "SCX0")
 					(unit 1)
 				)
 			)
@@ -24859,7 +24276,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "e-radionica.com footprinti:0603R"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 248.285 99.695 0)
 			(effects
 				(font
@@ -24992,7 +24409,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "e-radionica.com footprinti:SMD-JUMPER-CONNECTED_TRACE_SLODERMASK"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
 			(at 180.975 142.24 0)
 			(effects
 				(font
@@ -25060,7 +24477,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "e-radionica.com footprinti:0603C"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 148.59 88.265 0)
 			(effects
 				(font
@@ -25743,7 +25160,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "e-radionica.com footprinti:0603C"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 133.35 88.265 0)
 			(effects
 				(font
@@ -25918,7 +25335,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "KiCAD_Camsat_PCB:0603"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 386.08 106.68 0)
 			(effects
 				(font
@@ -26686,7 +26103,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "e-radionica.com footprinti:0603C"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 201.93 154.94 0)
 			(effects
 				(font
@@ -27032,7 +26449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KiCAD_Camsat_PCB:0805-NO"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 626.11 119.38 0)
 			(effects
 				(font
@@ -27208,7 +26625,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "e-radionica.com footprinti:0603C"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 170.18 154.94 0)
 			(effects
 				(font
@@ -27427,6 +26844,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:SS14")
+		(at 317.5 514.35 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cc86bfe-ef78-401b-ae77-be8134412b6a")
+		(property "Reference" "D6"
+			(at 317.8175 508 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS14"
+			(at 317.8175 510.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 317.5 509.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
+			(at 317.5 514.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "40V 1A Schottky Diode, SMA"
+			(at 317.5 514.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe98e396-256f-4482-8cc0-ce3b2da3239c")
+		)
+		(pin "2"
+			(uuid "f234e074-34a1-4d52-bfbf-43cac6165a00")
+		)
+		(instances
+			(project "KiCAD_Camsat_PCB"
+				(path "/241eef85-5121-46ed-8e85-b326060aeaf2"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "KiCAD_Camsat_PCB-eagle-import:microbuilder_CAP_CERAMIC0805-NOOUTLINE")
 		(at 786.13 129.54 0)
 		(unit 1)
@@ -27451,7 +26936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KiCAD_Camsat_PCB:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 786.13 129.54 0)
 			(effects
 				(font
@@ -27898,7 +27383,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "e-radionica.com footprinti:HYC77-TF09-200"
+		(property "Footprint" "esp32:MICROSD-HYC77-TF09-200"
 			(at 173.99 101.6 0)
 			(effects
 				(font
@@ -28116,7 +27601,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "KiCAD_Camsat_PCB:LED-0603"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 457.2 109.22 0)
 			(effects
 				(font
@@ -28185,7 +27670,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "KiCAD_Camsat_PCB:0603"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 447.04 160.02 0)
 			(effects
 				(font
@@ -28434,7 +27919,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "KiCAD_Camsat_PCB:SOT23-WIDE"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 643.89 129.54 0)
 			(effects
 				(font
@@ -28679,7 +28164,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KiCAD_Camsat_PCB:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 821.69 129.54 0)
 			(effects
 				(font
@@ -28748,7 +28233,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "e-radionica.com footprinti:0603C"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 140.97 88.265 0)
 			(effects
 				(font
@@ -28784,79 +28269,6 @@
 			(project "KiCAD_Camsat_PCB"
 				(path "/241eef85-5121-46ed-8e85-b326060aeaf2"
 					(reference "C19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KiCAD_Camsat_PCB-eagle-import:JUMPER-SMT_3_2-NC_TRACE_SILK")
-		(at 439.42 152.4 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7e1f62bc-4f86-4868-bace-a12ae4be2d5b")
-		(property "Reference" "I2C_PU0"
-			(at 434.34 155.321 90)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify right top)
-			)
-		)
-		(property "Value" "S_MODE"
-			(at 440.944 159.258 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "KiCAD_Camsat_PCB:SMT-JUMPER_3_2-NC_TRACE_SILK"
-			(at 439.42 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 439.42 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 439.42 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "883596c8-a179-4dc2-a786-efc682dec851")
-		)
-		(pin "1"
-			(uuid "d3e6a1c4-131d-4b55-bb4f-44971a7883b1")
-		)
-		(pin "2"
-			(uuid "88e75ff2-db2b-4a1b-9f6a-0a1f63ae3d65")
-		)
-		(instances
-			(project "KiCAD_Camsat_PCB"
-				(path "/241eef85-5121-46ed-8e85-b326060aeaf2"
-					(reference "I2C_PU0")
 					(unit 1)
 				)
 			)
@@ -29130,7 +28542,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "KiCAD_Camsat_PCB:SOT23-WIDE"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 654.05 137.16 0)
 			(effects
 				(font
@@ -29200,7 +28612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KiCAD_Camsat_PCB:SOD-323"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 725.17 134.62 0)
 			(effects
 				(font
@@ -29269,7 +28681,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KiCAD_Camsat_PCB:_0805MP"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 715.01 119.38 0)
 			(effects
 				(font
@@ -29711,7 +29123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KiCAD_Camsat_PCB:0805-NO"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 684.53 124.46 0)
 			(effects
 				(font
@@ -30548,75 +29960,6 @@
 			(project "KiCAD_Camsat_PCB"
 				(path "/241eef85-5121-46ed-8e85-b326060aeaf2"
 					(reference "#SUPPLY10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KiCAD_Camsat_PCB-eagle-import:JUMPER-SMT_2_NC_TRACE_SILK")
-		(at 457.2 121.92 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a5624cd4-8e2b-4c76-848b-1db7b8ab1cc4")
-		(property "Reference" "LED0"
-			(at 464.82 118.872 90)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "JUMPER-SMT_2_NC_TRACE_SILK"
-			(at 460.248 121.92 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "KiCAD_Camsat_PCB:SMT-JUMPER_2_NC_TRACE_SILK"
-			(at 457.2 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 457.2 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 457.2 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "257ebf20-4943-41d4-89fb-7a6c1ebfc549")
-		)
-		(pin "1"
-			(uuid "065a358d-75d3-4034-a19f-e00a31dfeb59")
-		)
-		(instances
-			(project "KiCAD_Camsat_PCB"
-				(path "/241eef85-5121-46ed-8e85-b326060aeaf2"
-					(reference "LED0")
 					(unit 1)
 				)
 			)
@@ -31477,6 +30820,7 @@
 					(size 1.778 1.778)
 				)
 				(justify left bottom)
+				(hide yes)
 			)
 		)
 		(property "Value" "JUMPER-SMT_3_1-NC_TRACE_SILK"
@@ -31488,7 +30832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "KiCAD_Camsat_PCB:SMT-JUMPER_3_1-NC_TRACE_SILK"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
 			(at 508 111.76 0)
 			(effects
 				(font
@@ -31784,7 +31128,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "KiCAD_Camsat_PCB:0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 345.44 127 0)
 			(effects
 				(font
@@ -31961,7 +31305,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-radionica.com footprinti:SMD_JUMPER"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 189.23 138.43 0)
 			(effects
 				(font
@@ -32027,7 +31371,7 @@
 				)
 			)
 		)
-		(property "Footprint" "e-radionica.com footprinti:0603C"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 246.38 69.85 0)
 			(effects
 				(font
@@ -32270,7 +31614,7 @@
 				)
 			)
 		)
-		(property "Footprint" "KiCAD_Camsat_PCB:0805-NO"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 679.45 124.46 0)
 			(effects
 				(font
@@ -32578,7 +31922,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "KiCAD_Camsat_PCB:0603"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 508 99.06 0)
 			(effects
 				(font
@@ -32646,7 +31990,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRN8040TA"
 			(at 381 519.43 0)
 			(effects
 				(font
@@ -33156,7 +32500,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "KiCAD_Camsat_PCB:0603"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 431.8 160.02 0)
 			(effects
 				(font
@@ -33798,7 +33142,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "KiCAD_Camsat_PCB:0603"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 508 124.46 0)
 			(effects
 				(font
@@ -34246,75 +33590,6 @@
 				(path "/241eef85-5121-46ed-8e85-b326060aeaf2"
 					(reference "#PWR0138")
 					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KiCAD_Camsat_PCB-eagle-import:JUMPER-SMT_2_NC_TRACE_SILK")
-		(at 515.62 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e9917511-461a-493d-9061-ec279c152d4a")
-		(property "Reference" "SDX0"
-			(at 513.08 149.86 90)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "JUMPER-SMT_2_NC_TRACE_SILK"
-			(at 518.668 149.86 0)
-			(effects
-				(font
-					(size 1.778 1.778)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "KiCAD_Camsat_PCB:SMT-JUMPER_2_NC_TRACE_SILK"
-			(at 515.62 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 515.62 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 515.62 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d8df2163-82c6-443f-8eb0-6e590d3a9034")
-		)
-		(pin "2"
-			(uuid "98e2b342-75ce-4c57-9f01-523b59c35389")
-		)
-		(instances
-			(project "KiCAD_Camsat_PCB"
-				(path "/241eef85-5121-46ed-8e85-b326060aeaf2"
-					(reference "SDX0")
-					(unit 1)
 				)
 			)
 		)
@@ -35521,7 +34796,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" "KiCAD_Camsat_PCB:0603"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 457.2 99.06 0)
 			(effects
 				(font
@@ -35697,7 +34972,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "KiCAD_Camsat_PCB:0603"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 335.28 124.46 0)
 			(effects
 				(font
