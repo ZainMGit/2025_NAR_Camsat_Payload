@@ -225,116 +225,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "+5V_EXT"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V_EXT"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name '+5V_EXT'"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_EXT_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "+5V_EXT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "+5V_VBUS"
 			(power)
 			(pin_numbers
@@ -2986,184 +2876,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "210-1S-1*3Ppin Gold-plated"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J4"
-				(at -1.2446 11.0871 0)
-				(effects
-					(font
-						(face "Arial")
-						(size 1.6891 1.6891)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "210-1S-1*3Ppin Gold-plated"
-				(at -1.2446 8.8011 0)
-				(effects
-					(font
-						(face "Arial")
-						(size 1.6891 1.6891)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "B-2101S03P-A110"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "Ckmtw(灿科盟)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C124354"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "210-1S-1*3Ppin Gold-plated_0_0"
-				(rectangle
-					(start -5.08 6.35)
-					(end 5.588 -1.27)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 4.318 0)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 4.318 0)
-					(radius 0.254)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin unspecified line
-					(at -2.54 -6.35 90)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -6.35 90)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 2.54 -6.35 90)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13244,16 +12956,6 @@
 		)
 		(uuid "1d0806f8-2324-47a3-97ae-e94aaf08259e")
 	)
-	(text "Maybe can be removed\n"
-		(exclude_from_sim no)
-		(at 104.14 348.488 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "2b7b53ca-8902-431d-a312-c118b7c70762")
-	)
 	(text "POWER LED"
 		(exclude_from_sim no)
 		(at 247.65 326.8218 0)
@@ -14125,16 +13827,6 @@
 			(type solid)
 		)
 		(uuid "072d3f56-b746-4e7a-afda-d7401d1a1420")
-	)
-	(wire
-		(pts
-			(xy 83.82 359.41) (xy 78.74 359.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07633874-47dd-4919-b855-d6a1ae99da46")
 	)
 	(wire
 		(pts
@@ -15698,16 +15390,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 359.41) (xy 78.74 354.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8aa85861-3791-4668-94c2-ccb65aafd229")
-	)
-	(wire
-		(pts
 			(xy 308.61 519.43) (xy 322.58 519.43)
 		)
 		(stroke
@@ -16128,26 +15810,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 363.22) (xy 81.28 363.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afd1070f-420f-4501-b2b8-c4de82465822")
-	)
-	(wire
-		(pts
-			(xy 93.98 359.41) (xy 91.44 359.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afd79093-0a02-4dfe-a914-fb66e61fcb92")
-	)
-	(wire
-		(pts
 			(xy 224.79 429.26) (xy 242.57 429.26)
 		)
 		(stroke
@@ -16205,16 +15867,6 @@
 			(type default)
 		)
 		(uuid "b3de4efb-cd1e-4cd7-9142-4e9709f3dca2")
-	)
-	(wire
-		(pts
-			(xy 66.04 354.33) (xy 76.2 354.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b42fad47-84c0-42c2-883a-946ee521fe5b")
 	)
 	(wire
 		(pts
@@ -16455,16 +16107,6 @@
 			(type dash)
 		)
 		(uuid "c56257ff-b927-45db-90a1-b72cdcc4aaee")
-	)
-	(wire
-		(pts
-			(xy 81.28 363.22) (xy 81.28 354.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6475c28-c0f0-4bec-a19c-cc131dbff251")
 	)
 	(wire
 		(pts
@@ -18928,74 +18570,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SS14")
-		(at 87.63 359.41 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0dde5324-19ac-46cb-bc51-564f338b104b")
-		(property "Reference" "D7"
-			(at 87.9475 353.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SS14"
-			(at 87.9475 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 87.63 354.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/88746/ss12.pdf"
-			(at 87.63 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "40V 1A Schottky Diode, SMA"
-			(at 87.63 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "196add05-b10c-4d42-9e1b-db70d7d0cf13")
-		)
-		(pin "2"
-			(uuid "f6887597-d1e7-4a15-9bca-4cb100d84ee5")
-		)
-		(instances
-			(project "KiCAD_Camsat_PCB"
-				(path "/241eef85-5121-46ed-8e85-b326060aeaf2"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "GND")
 		(at 322.58 542.29 0)
 		(unit 0)
@@ -20025,74 +19599,6 @@
 			(project "KiCAD_Camsat_PCB"
 				(path "/241eef85-5121-46ed-8e85-b326060aeaf2"
 					(reference "#PWR0126")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "+5V")
-		(at 93.98 359.41 0)
-		(mirror x)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "249f3927-4976-412d-b40f-74f378947ead")
-		(property "Reference" "#PWR0141"
-			(at 93.98 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 90.7288 356.362 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 2.1717 2.1717)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" ""
-			(at 93.98 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 93.98 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name '+5V'"
-			(at 93.98 359.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fcece42d-062d-4da5-a9bf-a6d86b9abd36")
-		)
-		(instances
-			(project "KiCAD_Camsat_PCB"
-				(path "/241eef85-5121-46ed-8e85-b326060aeaf2"
-					(reference "#PWR0141")
 					(unit 0)
 				)
 			)
@@ -25959,7 +25465,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit BMP280 (1):0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 643.89 200.66 0)
 			(effects
 				(font
@@ -27266,184 +26772,6 @@
 		)
 	)
 	(symbol
-		(lib_id "210-1S-1*3Ppin Gold-plated")
-		(at 78.74 347.98 0)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e30a4ddd-e116-4b53-9c74-a795129cffe8")
-		(property "Reference" "J4"
-			(at 77.4954 336.8929 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.6891 1.6891)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "210-1S-1*3Ppin Gold-plated"
-			(at 77.4954 339.1789 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.6891 1.6891)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 78.74 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 78.74 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "B-2101S03P-A110"
-			(at 78.74 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Ckmtw(灿科盟)"
-			(at 78.74 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C124354"
-			(at 78.74 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 78.74 347.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "95f36d93-3498-47a2-9491-20b2c7501d51")
-		)
-		(pin "2"
-			(uuid "57efde0f-deb3-455c-bcd4-56c801847d76")
-		)
-		(pin "1"
-			(uuid "489756f3-c28e-4dba-b2f6-85b1e229285e")
-		)
-		(instances
-			(project "KiCAD_Camsat_PCB"
-				(path "/241eef85-5121-46ed-8e85-b326060aeaf2"
-					(reference "J4")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "+5V_EXT")
-		(at 66.04 354.33 0)
-		(mirror x)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e59e280f-8164-45b2-a4e2-3a946bc4ce0c")
-		(property "Reference" "#PWR0140"
-			(at 66.04 354.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_EXT"
-			(at 58.42 350.52 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 2.1717 2.1717)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 354.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 354.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name '+5V_EXT'"
-			(at 66.04 354.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0562e295-dce5-4c47-9710-daa696417e53")
-		)
-		(instances
-			(project "KiCAD_Camsat_PCB"
-				(path "/241eef85-5121-46ed-8e85-b326060aeaf2"
-					(reference "#PWR0140")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "GND")
 		(at 240.03 457.2 0)
 		(unit 0)
@@ -28480,74 +27808,6 @@
 			(project "KiCAD_Camsat_PCB"
 				(path "/241eef85-5121-46ed-8e85-b326060aeaf2"
 					(reference "C13")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "+5V_VBUS")
-		(at 66.04 363.22 0)
-		(mirror x)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f9de6044-021d-4f99-b985-88f520d99e55")
-		(property "Reference" "#PWR0139"
-			(at 66.04 363.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_VBUS"
-			(at 58.42 359.41 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 2.1717 2.1717)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 363.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 363.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name '+5V_VBUS'"
-			(at 66.04 363.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65cceb1f-4fa0-4b7b-88ab-21677f5d7270")
-		)
-		(instances
-			(project "KiCAD_Camsat_PCB"
-				(path "/241eef85-5121-46ed-8e85-b326060aeaf2"
-					(reference "#PWR0139")
 					(unit 0)
 				)
 			)
