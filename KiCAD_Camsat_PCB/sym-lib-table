@@ -1,4 +1,6 @@
 (sym_lib_table
   (version 0)
   (lib (name "KiCAD_Camsat_PCB-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/KiCAD_Camsat_PCB-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "SparkFun_6DoF_ISM330DHCX-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/SparkFun_6DoF_ISM330DHCX-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "Adafruit BMP280 (1)-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Adafruit BMP280 (1)-eagle-import.kicad_sym")(options "")(descr ""))
 )

@@ -1,4 +1,4 @@
-26631362878333552
+26642016405328417
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -105573,3 +105573,45 @@ Varistor VF
 0
 2
 2
+esp32
+ESP32-WROOM-32E
+ESP32-WROOM-32E and ESP32-WROOM-32UE: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
+ESP32
+0
+50
+39
+esp32
+MICROSD-HYC77-TF09-200
+
+
+0
+13
+10
+esp32
+MOLEX_105017-0001
+
+
+0
+13
+13
+esp32
+PQFN50P250X300X86-14N
+
+
+0
+14
+14
+esp32
+PSON65P250X250X100-8N
+2.5 mm x 2.5 mm x 0.93 mm metal lid LGA
+
+0
+8
+8
+esp32
+SOP65P640X120-14N
+
+
+0
+14
+14
