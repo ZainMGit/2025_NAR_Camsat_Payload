@@ -335,282 +335,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0402WGF0000TCE"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R4"
-				(at -1.4986 5.7785 0)
-				(effects
-					(font
-						(face "Arial")
-						(size 1.6891 1.6891)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "0Ω"
-				(at -1.4986 3.4671 0)
-				(effects
-					(font
-						(face "Arial")
-						(size 1.6891 1.6891)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "0402WGF0000TCE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "UNI-ROYAL(厚声)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C17168"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0402WGF0000TCE_0_0"
-				(rectangle
-					(start -2.54 1.016)
-					(end 2.54 -1.016)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "0402WGF0000TCE_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R5"
-				(at -1.4986 5.7785 0)
-				(effects
-					(font
-						(face "Arial")
-						(size 1.6891 1.6891)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "0Ω"
-				(at -1.4986 3.4671 0)
-				(effects
-					(font
-						(face "Arial")
-						(size 1.6891 1.6891)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part" "0402WGF0000TCE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer" "UNI-ROYAL(厚声)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part" "C17168"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0402WGF0000TCE_1_0_0"
-				(rectangle
-					(start -2.54 1.016)
-					(end 2.54 -1.016)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "0402WGF1001TCE"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -13987,7 +13711,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 422.91) (xy 345.44 422.91)
+			(xy 330.2 422.91) (xy 370.84 422.91)
 		)
 		(stroke
 			(width 0)
@@ -14017,7 +13741,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 412.75) (xy 345.44 412.75)
+			(xy 330.2 412.75) (xy 370.84 412.75)
 		)
 		(stroke
 			(width 0)
@@ -14664,16 +14388,6 @@
 			(type default)
 		)
 		(uuid "3ec888e5-fa0d-48de-8c2e-503f0b7d23cb")
-	)
-	(wire
-		(pts
-			(xy 355.6 412.75) (xy 370.84 412.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f490be2-3497-4ffe-845b-9bc042874592")
 	)
 	(wire
 		(pts
@@ -16184,16 +15898,6 @@
 			(type default)
 		)
 		(uuid "bc38e437-4b2d-4ed3-8d7a-4d39449967a5")
-	)
-	(wire
-		(pts
-			(xy 355.6 422.91) (xy 370.84 422.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bccfff22-4f52-4560-929e-a60982f6a1e4")
 	)
 	(wire
 		(pts
@@ -18374,7 +18078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
+		(property "Value" "+3V3"
 			(at 553.466 259.334 0)
 			(effects
 				(font
@@ -19336,113 +19040,6 @@
 		)
 	)
 	(symbol
-		(lib_id "0402WGF0000TCE_1")
-		(at 350.52 422.91 0)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "19be6417-5ad8-4fd0-88f4-f3e2c7d33f5c")
-		(property "Reference" "R20"
-			(at 349.0214 417.1315 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.6891 1.6891)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "0Ω"
-			(at 349.0214 419.4429 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.6891 1.6891)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 350.52 422.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 422.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 350.52 422.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "0402WGF0000TCE"
-			(at 350.52 422.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 350.52 422.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C17168"
-			(at 350.52 422.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 350.52 422.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aea0b6a3-a7af-4682-975f-9e9fc7618d38")
-		)
-		(pin "2"
-			(uuid "f7facc21-32f8-4245-aa0e-1ed1295a228c")
-		)
-		(instances
-			(project "KiCAD_Camsat_PCB"
-				(path "/241eef85-5121-46ed-8e85-b326060aeaf2"
-					(reference "R20")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CP2102N-A02-GQFN28R")
 		(at 261.62 435.61 0)
 		(unit 0)
@@ -19888,7 +19485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
+		(property "Value" "+3V3"
 			(at 371.094 169.164 0)
 			(effects
 				(font
@@ -20947,7 +20544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
+		(property "Value" "+3V3"
 			(at 489.966 265.684 0)
 			(effects
 				(font
@@ -23286,7 +22883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
+		(property "Value" "+3V3"
 			(at 543.306 256.794 0)
 			(effects
 				(font
@@ -23834,7 +23431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
+		(property "Value" "+3V3"
 			(at 353.314 222.504 0)
 			(effects
 				(font
@@ -23900,7 +23497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
+		(property "Value" "+3V3"
 			(at 259.334 186.944 0)
 			(effects
 				(font
@@ -24157,113 +23754,6 @@
 			(project "KiCAD_Camsat_PCB"
 				(path "/241eef85-5121-46ed-8e85-b326060aeaf2"
 					(reference "C11")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0402WGF0000TCE")
-		(at 350.52 412.75 0)
-		(unit 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9e0fa1cb-7cfd-43b0-9466-da4dd34f641d")
-		(property "Reference" "R19"
-			(at 349.0214 406.9715 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.6891 1.6891)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "0Ω"
-			(at 349.0214 409.2829 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.6891 1.6891)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 350.52 412.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 350.52 412.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 350.52 412.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part" "0402WGF0000TCE"
-			(at 350.52 412.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "UNI-ROYAL(厚声)"
-			(at 350.52 412.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part" "C17168"
-			(at 350.52 412.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 350.52 412.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1115a902-2e51-4276-bcba-2e14eb581b7e")
-		)
-		(pin "1"
-			(uuid "9437a24a-3830-4318-b228-98daf8886420")
-		)
-		(instances
-			(project "KiCAD_Camsat_PCB"
-				(path "/241eef85-5121-46ed-8e85-b326060aeaf2"
-					(reference "R19")
 					(unit 0)
 				)
 			)
@@ -26295,7 +25785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
+		(property "Value" "+3V3"
 			(at 302.006 176.784 0)
 			(effects
 				(font
@@ -28177,7 +27667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3.3V"
+		(property "Value" "+3V3"
 			(at 249.174 186.944 0)
 			(effects
 				(font
