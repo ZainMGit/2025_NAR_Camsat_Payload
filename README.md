@@ -1,4 +1,4 @@
-# 2025_NAR_Camsat_Payload
+# 2025_NAR_CanSat_Payload
 Download KiCAD_Camsat_PCB as a zip file and then open the project file within KiCAD to get the most up to date version of the pcb.
 
 microsd pin orientation: 
